@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url("https://kartinkin.net/uploads/posts/2021-07/1626195518_43-kartinkin-com-p-temnii-fon-dlya-prilozheniya-krasivo-43.jpg");
+    height: 95vh;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-image: url("https://android-obzor.com/wp-content/uploads/2022/04/44-7.jpg");
+    background-position: center;
+    background-size: 420px;
+    margin-top: 30px;
+    -webkit-box-shadow: 0px 11px 15px 4px #000000; 
+    box-shadow: 0px 11px 15px 4px #000000;
+}
+header li{
+    display:inline-block;
+    margin-left: 280px;
+    margin-top:25px;
+    font-size: 20px;
+}
+header a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.imgbtn{
+    display: none;
+}
+
+@media screen and (max-width:420px) and  (min-width:200px){
+    body{
+        background-position: center;
+        background-image: url("./img/Screenshot_2023-05-28-14-02-07-953_com.whatsapp.jpg");
+        background-size: cover;
+        height: 110vh;
+        background-repeat: no-repeat;
+    }
+    header li a{
+      display: none;   
+    }
+    .menu{
+        height: 400px;
+        width: 250px;
+        background-image: url("./img/Screenshot_2023-05-28-14-02-22-163_com.whatsapp.jpg");
+        background-position: center;
+        background-size: 250px 500px;
+        border-radius:20px;
+        position: absolute;
+        top:120px;
+        left:-250px;
+        transition-duration: 0.5s;
+        z-index: 1;
+    }
+    .menu.active{
+        left:5px;
+        
+    }
+    .imgbtn{
+        position: absolute;
+        top:38px;
+        display: block;
+    }
+    a{
+        text-decoration: none;
+        color:#ffffff;
+        padding-left: 80px;
+    }
+    li{
+        margin-top: 60px;
+        font-size: 30px;
+    }
+    h1{
+        padding-left: 80px;
+        margin-top: 25px;
+        color: #ffffff;
+    }
+    .oxymi{
+        position: absolute;
+        left: 100px;
+        top: 65px;
+        color: #ffffff;
+    }
+    .overlay{
+        height: 100vh;
+        width: 100%;
+    }
+    h2{
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 10px;
+        color:#e7d6d6;
+    }
+    h3{
+        margin-top: 25px;
+        padding: 10px;
+        color:#e2d8d8;
+    }
+    .block1{
+        margin: 10px;
+        height: 200px;
+        width:95%;
+        background: #2e5f6b;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 11px 15px 4px #3f3b3b; 
+        box-shadow: 0px 11px 15px 4px #4b4040;
+    }
+    .block2{
+        margin: 10px;
+        margin-top: 70px;
+        height: 200px;
+        width:95%;
+        background: #2e5f6b;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 11px 15px 4px #352f2f; 
+        box-shadow: 0px 11px 15px 4px #312c2c;
+    }
+    .alan{
+        height: 250px;
+        width:130px;
+        position: absolute;
+        top:595px;
+        left:0;
+    }
+    .top1-block{
+        height: 350px;
+        width:80%;
+        margin: 35px;
+        background: #2a834c;
+        border-radius: 15px;
+    }
+    .top1{
+        height: 200px;
+        width: 85%;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .top1-rech{
+        color: #ffffff;
+        margin: 5px;
+    }
+    .first{
+       margin-left: 35px;
+    }
+    .top2-block{
+        height: 350px;
+        width:80%;
+        margin: 35px;
+        background: #3a3a3a;
+        border-radius: 15px;
+    }
+    .top2{
+        height: 250px;
+        width: 85%;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .top2-rech{
+        color: #ffffff;
+        margin-left: 30px;
+    }
+    .second{
+       margin-left: 35px;
+    }
+    .top3-block{
+        height: 380px;
+        width:80%;
+        margin: 35px;
+        background: #313e79;
+        border-radius: 15px;
+    }
+    .top3{
+        height: 250px;
+        width: 85%;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .top3-rech{
+        color: #ffffff;
+        margin: 10px;
+    }
+    .third{
+       margin-left: 35px;
+    }
+    .top4-block{
+        height: 380px;
+        width:80%;
+        margin: 35px;
+        background: #53304e;
+        border-radius: 15px;
+    }
+    .top4{
+        height: 250px;
+        width: 85%;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .top4-rech{
+        color: #ffffff;
+        margin: 10px;
+    }
+    .fourth{
+       margin-left: 35px;
+    }
+    .top5-block{
+        height: 350px;
+        width:80%;
+        margin: 35px;
+        background: #2fb3ca;
+        border-radius: 15px;
+    }
+    .top5{
+        height: 250px;
+        width: 85%;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .top5-rech{
+        color: #ffffff;
+        margin: 10px;
+    }
+    .fiveth{
+       margin-left: 35px;
+    }
+    .block-back{
+        height: 100vh;
+        width: 100%;
+        background-image: url("./img/block.jpg");
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top:100vh;
+        z-index: -1;
+    }.block-back2{
+        height: 105vh;
+        width: 100%;
+        background-image: url("./img/Screenshot_2023-05-28-14-02-22-163_com.whatsapp.jpg");
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top:100vh;
+        z-index: -1;
+    }
+    .top1video-block{
+        height: 350px;
+        width:80%;
+        margin: 35px;
+        background: #2a834c;
+        border-radius: 15px;
+        z-index: -10;
+    }
+    .top1video{
+        height: 300px;
+        width: 180px;
+        position: relative;
+        left:50px;
+        z-index: 0;
+    }
+    .top2video-block{
+        height: 350px;
+        width:80%;
+        margin: 35px;
+        background: #3a3a3a;
+        border-radius: 15px;
+    }
+    .top2video{
+        height: 300px;
+        width: 180px;
+        position: relative;
+        left:50px;
+    }
+    .top3video-block{
+        height: 350px;
+        width:80%;
+        margin: 35px;
+        background: #313e79;
+        border-radius: 15px;
+    }
+    .top3video{
+        height: 300px;
+        width: 180px;
+        position: relative;
+        left:50px;
+    }
+    .top4video-block{
+        height: 350px;
+        width:80%;
+        margin: 35px;
+        background: #53304e;
+        border-radius: 15px;
+    }
+    .top4video{
+        height: 300px;
+        width: 180px;
+        position: relative;
+        left:50px;
+    }
+    .top5video-block{
+        height: 350px;
+        width:80%;
+        margin: 35px;
+        background: #2fb3ca;
+        border-radius: 15px;
+    }
+    .top5video{
+        height: 300px;
+        width: 180px;
+        position: relative;
+        left:50px;
+    }
+    .top6video-block{
+        height: 350px;
+        width:80%;
+        margin: 35px;
+        background: #a50a38;
+        border-radius: 15px;
+    }
+    .top6video{
+        height: 300px;
+        width: 180px;
+        position: relative;
+        left:50px;
+    }
+    .top7video-block{
+        height: 350px;
+        width:80%;
+        margin: 35px;
+        background: #cfe415;
+        border-radius: 15px;
+    }
+    .top7video{
+        height: 300px;
+        width: 180px;
+        position: relative;
+        left:50px;
+    }
+}
